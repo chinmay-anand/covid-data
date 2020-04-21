@@ -31,9 +31,13 @@ def getCovidDataFromWorldometers(url):
     df = df.sort_values('Total Cases', ascending=False)
     return df;
 
-covid_url = 'https://www.worldometers.info/coronavirus/'
-# covid_india_url = 'https://www.mygov.in/corona-data/covid19-statewise-status'
+def main():
+    covid_url = 'https://www.worldometers.info/coronavirus/'
+    # covid_india_url = 'https://www.mygov.in/corona-data/covid19-statewise-status'
 
-dfCovid = getCovidDataFromWorldometers(covid_url)
-# Output the data as an xlsx file skipping the row index 0,1,2,...
-dfCovid.to_excel('Covid19-Data-Worldwide.xlsx', index=False);
+    dfCovid = getCovidDataFromWorldometers(covid_url)
+    # Output the data as an xlsx file skipping the row index 0,1,2,...
+    dfCovid.to_excel('Covid19-Data-Worldwide.xlsx', index=False);
+
+if __name__ == '__main__':
+    main()

@@ -37,6 +37,7 @@ def main():
 
     dfCovid = getCovidDataFromWorldometers(covid_url)
     # Output the data as an xlsx file skipping the row index 0,1,2,...
+    dfCovid.to_csv('Covid19-Data-Worldwide.csv', index=False);
     dfCovid.to_excel('Covid19-Data-Worldwide.xlsx', index=False);
 
 if __name__ == '__main__':

@@ -4,4 +4,10 @@ Contains python code to extract covid data from web and write to an excel file f
 2. Then the column headers are adjusted for further processing.
 3. The latest searchanble Covid data is avaialble at [my website](<https://chinmay.glideapp.io>)
 
+<table>
+  <tr>
+    <td><a href="https://github.com/chinmay-anand/table-of-contents" target="_blank">table-of-contents</a></td><td>Index page containing links to rest of the accessible repositories</td><td>Status: In Progress</td>
+  </tr>
+</table>
+
 ~Chinmay [LinkedIn](<https://www.linkedin.com/in/chinmay-anand-a952622/>)

@@ -6,7 +6,7 @@ Contains python code to extract covid data from web and write to an excel file f
 
 <table>
   <tr>
-    <td><a href="https://github.com/chinmay-anand/table-of-contents" target="_blank">table-of-contents</a></td><td>Index page containing links to rest of the accessible repositories</td><td>Status: In Progress</td>
+    <td><a href="mailto:chinmay.subscriptions@gmail.com" target="_blank">Contact me</a></td><td>For the index page containing links to rest of the accessible repositories</td><td>Status: In Progress</td>
   </tr>
 </table>
 
